@@ -4,13 +4,13 @@
       "type": "application/pdf",
       "suffixes": "pdf",
       "description": "",
-      "__pluginName": "Chrome PDF Viewer"
+      "__pluginName": "Chromium PDF Viewer"
     },
     {
       "type": "application/x-google-chrome-pdf",
       "suffixes": "pdf",
       "description": "Portable Document Format",
-      "__pluginName": "Chrome PDF Plugin"
+      "__pluginName": "Chromium PDF Plugin"
     },
     {
       "type": "application/x-nacl",
@@ -27,13 +27,13 @@
   ],
   "plugins": [
     {
-      "name": "Chrome PDF Plugin",
+      "name": "Chromium PDF Plugin",
       "filename": "internal-pdf-viewer",
       "description": "Portable Document Format",
       "__mimeTypes": ["application/x-google-chrome-pdf"]
     },
     {
-      "name": "Chrome PDF Viewer",
+      "name": "Chromium PDF Viewer",
       "filename": "mhjfbmdgcfjbbpaeojofohoefgiehjai",
       "description": "",
       "__mimeTypes": ["application/pdf"]
