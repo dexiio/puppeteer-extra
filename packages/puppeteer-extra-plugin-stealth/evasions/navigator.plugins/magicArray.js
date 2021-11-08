@@ -136,7 +136,11 @@ module.exports.generateMagicArray = (utils, fns) =>
         if (prop === 'length') {
           return undefined
         }
-        return Reflect.getOwnPropertyDescriptor(target, prop)
+
+        // Override behavior, writable should be false
+        const result = Reflect.getOwnPropertyDescriptor(target, prop)
+        if (result !== undefined && result.writable !== undefined) result.writable = false;
+        return result;
       }
     })
 
